@@ -32,7 +32,7 @@
   <string name="exception_updated">Els detalls d\'aquest esdeveniment han canviat al dia <xliff:g id="DATE">%s</xliff:g></string>
   <string name="policy_dont_allow_storage_cards">No permetis targetes d\'emmagatzematge</string>
   <string name="policy_dont_allow_unsigned_apps">No permetis aplicacions no signades</string>
-  <string name="policy_dont_allow_unsigned_installers">No permetis instal. d\'aplic. no sign.</string>
+  <string name="policy_dont_allow_unsigned_installers">No permetis instal·ladors d\'aplicacions no signades</string>
   <string name="policy_dont_allow_wifi">No permetis la Wi-Fi</string>
   <string name="policy_dont_allow_text_messaging">No permetis els missatges de text</string>
   <string name="policy_dont_allow_pop_imap">No permetis els comptes POP3 ni IMAP</string>

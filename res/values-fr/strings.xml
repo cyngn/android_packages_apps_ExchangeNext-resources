@@ -19,7 +19,10 @@
   <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
   <string name="meeting_accepted">Réunion acceptée : <xliff:g id="SUBJECT">%s</xliff:g></string>
   <string name="meeting_declined">Réunion refusée : <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_tentative">Projet de réunion : <xliff:g id="SUBJECT">%s</xliff:g></string>
+  <string name="meeting_tentative">
+        Projet de réunion :
+        <xliff:g id="SUBJECT">%s</xliff:g>
+    </string>
   <string name="meeting_canceled">Réunion annulée : <xliff:g id="SUBJECT">%s</xliff:g></string>
   <string name="meeting_updated">Mise à jour : <xliff:g id="SUBJECT">%s</xliff:g></string>
   <string name="meeting_when">Date : <xliff:g id="WHEN">%s</xliff:g></string>

@@ -51,7 +51,7 @@
   <string name="policy_dont_allow_attachments">Não permitir anexos</string>
   <string name="policy_max_attachment_size">Limitar tamanho dos anexos</string>
   <string name="policy_require_manual_sync_roaming">Permitir apenas sinc. manual em roaming</string>
-  <string name="policy_require_encryption">Solicitar encriptação do aparelho</string>
+  <string name="policy_require_encryption">Solicitar encriptação do dispositivo</string>
   <string name="auth_error_notification_title">Erro de autenticação</string>
   <string name="auth_error_notification_text">Toque para editar as definições da conta <xliff:g id="ACCOUNT">%s</xliff:g></string>
 </resources>
