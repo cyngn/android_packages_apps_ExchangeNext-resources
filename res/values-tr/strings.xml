@@ -33,7 +33,7 @@
   <string name="policy_dont_allow_storage_cards">Depolama kartlarına izin verme</string>
   <string name="policy_dont_allow_unsigned_apps">İmzasız uygulamalara izin verme</string>
   <string name="policy_dont_allow_unsigned_installers">İmzasız uygulama yükleyicilere izin verme</string>
-  <string name="policy_dont_allow_wifi">Kablosuza izin verme</string>
+  <string name="policy_dont_allow_wifi">Wi-Fi\'ye izin verme</string>
   <string name="policy_dont_allow_text_messaging">Kısa mesaja izin verme</string>
   <string name="policy_dont_allow_pop_imap">POP3 veya IMAP hesaplarına izin verme</string>
   <string name="policy_dont_allow_irda">Kızılötesi iletişime izin verme</string>

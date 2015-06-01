@@ -17,9 +17,47 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+  <string name="meeting_accepted">
+        Onartua:
+        <xliff:g id="subject">%s</xliff:g>
+    </string>
+  <string name="meeting_declined">
+        Ezetsita:
+        <xliff:g id="subject">%s</xliff:g>
+    </string>
+  <string name="meeting_tentative">
+        Zalantzakor:
+        <xliff:g id="subject">%s</xliff:g>
+    </string>
+  <string name="meeting_canceled">
+Bertan behera utzi da: 
+<xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_updated">
+        Eguneratuta:
+        <xliff:g id="subject">%s</xliff:g>
+    </string>
+  <string name="meeting_when">
+        Noiz:
+        <xliff:g id="when">%s</xliff:g>
+    </string>
   <string name="meeting_where">
         Non:
         <xliff:g id="where">%s</xliff:g>
+    </string>
+  <string name="meeting_recurring">
+        Noiz:
+        <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g>
+        (errepikakorra)
+    </string>
+  <string name="meeting_allday">
+        Noiz:
+        <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>
+        (egun osoa)
+    </string>
+  <string name="meeting_allday_recurring">
+        Noiz:
+        <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>
+        (egun osoa, errepikakorra)
     </string>
   <string name="notification_exchange_calendar_added">Exchange egutegia gehitu da</string>
   <string name="exception_cancel">
@@ -32,5 +70,29 @@
         aldatu dira:
         <xliff:g id="date">%s</xliff:g>
     </string>
+  <string name="policy_dont_allow_storage_cards">Ez baimendu biltegiratze txartelak</string>
+  <string name="policy_dont_allow_unsigned_apps">Ez baimendu sinatu gabeko aplikazioak</string>
+  <string name="policy_dont_allow_unsigned_installers">Ez baimendu sinatu gabeko 
+aplikazio instalatzaileak</string>
   <string name="policy_dont_allow_wifi">Ez baimendu Wi-Fia</string>
+  <string name="policy_dont_allow_text_messaging">Ez baimendu testu mezularitza</string>
+  <string name="policy_dont_allow_pop_imap">Ez baimendu POP3 edo IMAP kontuak</string>
+  <string name="policy_dont_allow_irda">Ez baimendu komunikazio infragorria</string>
+  <string name="policy_dont_allow_html">Ez baimendu HTML posta</string>
+  <string name="policy_dont_allow_browser">Ez baimendu nabigatzaileak</string>
+  <string name="policy_dont_allow_consumer_email">Ez baimendu kontsumitzaile posta</string>
+  <string name="policy_dont_allow_internet_sharing">Ez baimendu internet partekatzea</string>
+  <string name="policy_require_smime">Eskatu SMIME mezuak</string>
+  <string name="policy_bluetooth_restricted">Mugatu Bluetooth erabilera</string>
+  <string name="policy_app_blacklist">Ezgaitu zehaztutako aplikazioak</string>
+  <string name="policy_app_whitelist">Baimendu zehaztutako aplikazioak besterik ez</string>
+  <string name="policy_text_truncation">Mugatu testu mezuaren tamaina</string>
+  <string name="policy_html_truncation">Mugatu HTML mezuaren tamaina</string>
+  <string name="policy_require_sd_encryption">Derrigortu SD txartela zifratzea</string>
+  <string name="policy_dont_allow_attachments">Ez baimendu eranskinak</string>
+  <string name="policy_max_attachment_size">Mugatu eranskinen tamaina</string>
+  <string name="policy_require_manual_sync_roaming">Eskuzko sinkronizazioa besterik ez baimendu ibiltaritzan</string>
+  <string name="policy_require_encryption">Derrigortu gailua zifratzea</string>
+  <string name="auth_error_notification_title">Autentifikazio errorea</string>
+  <string name="auth_error_notification_text">Sakatu <xliff:g id="account">%s</xliff:g> kontuaren ezarpenak editatzeko</string>
 </resources>
