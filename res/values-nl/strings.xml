@@ -47,7 +47,7 @@
   <string name="policy_app_whitelist">Alleen opgegeven apps toestaan</string>
   <string name="policy_text_truncation">Tekstgrootte van e-mail beperken</string>
   <string name="policy_html_truncation">Grootte van HTML-e-mails beperken</string>
-  <string name="policy_require_sd_encryption">Codering van SD-kaart vereisen</string>
+  <string name="policy_require_sd_encryption">Versleutelen van SD-kaart vereisen</string>
   <string name="policy_dont_allow_attachments">Bijlagen niet toestaan</string>
   <string name="policy_max_attachment_size">Grootte van bijlagen beperken</string>
   <string name="policy_require_manual_sync_roaming">Alleen handm. synchr. toestn bij roaming</string>

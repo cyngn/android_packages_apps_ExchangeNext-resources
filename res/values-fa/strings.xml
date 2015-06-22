@@ -33,7 +33,7 @@
   <string name="policy_dont_allow_storage_cards">کارت‌های حافظه مجاز نیست</string>
   <string name="policy_dont_allow_unsigned_apps">برنامه‌های امضا نشده مجاز نیستند</string>
   <string name="policy_dont_allow_unsigned_installers">نصب کننده‌های برنامه امضا نشده مجاز نیستند</string>
-  <string name="policy_dont_allow_wifi">‏Wi-Fi مجاز نیست</string>
+  <string name="policy_dont_allow_wifi">وای‌فای مجاز نیست</string>
   <string name="policy_dont_allow_text_messaging">پیام‌رسانی نوشتاری مجاز نیست</string>
   <string name="policy_dont_allow_pop_imap">‏حساب‌های POP3 یا IMAP مجاز نیست</string>
   <string name="policy_dont_allow_irda">ارتباطات مادون قرمز مجاز نیست</string>
@@ -47,7 +47,7 @@
   <string name="policy_app_whitelist">فقط برنامه‌های خاص مجاز هستند</string>
   <string name="policy_text_truncation">اندازه نوشتار ایمیل محدود است</string>
   <string name="policy_html_truncation">‏اندازه ایمیل HTML محدود است</string>
-  <string name="policy_require_sd_encryption">‏کارت sd باید رمزگذاری شود</string>
+  <string name="policy_require_sd_encryption">‏کارت حافظه باید رمزگذاری شود</string>
   <string name="policy_dont_allow_attachments">پیوست‌ها مجاز نیستند</string>
   <string name="policy_max_attachment_size">اندازه پیوست محدود است</string>
   <string name="policy_require_manual_sync_roaming">در حالت رومینگ فقط همگام‌سازی دستی مجاز است</string>
