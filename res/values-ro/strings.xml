@@ -51,7 +51,7 @@
   <string name="policy_dont_allow_attachments">Nu permiteţi ataşamente</string>
   <string name="policy_max_attachment_size">Limitaţi dimensiunea ataşamentului</string>
   <string name="policy_require_manual_sync_roaming">În roaming permiteţi doar sincr. manuală</string>
-  <string name="policy_require_encryption">Solicitaţi criptarea dispozitivului</string>
+  <string name="policy_require_encryption">Necesită criptarea dispozitivului</string>
   <string name="auth_error_notification_title">Eroare de autentificare</string>
   <string name="auth_error_notification_text">Atingeți pentru a edita setările contului <xliff:g id="ACCOUNT">%s</xliff:g></string>
 </resources>
