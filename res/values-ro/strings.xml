@@ -36,7 +36,7 @@
   <string name="policy_dont_allow_wifi">Nu permiteţi Wi-Fi</string>
   <string name="policy_dont_allow_text_messaging">Nu permiteţi mesagerie text</string>
   <string name="policy_dont_allow_pop_imap">Nu permiteţi conturi POP3 sau IMAP</string>
-  <string name="policy_dont_allow_irda">Nu permiteţi comunicaţiile în infraroşu</string>
+  <string name="policy_dont_allow_irda">Nu permite comunicațiile în infraroșu</string>
   <string name="policy_dont_allow_html">Nu permiteţi e-mailuri HTML</string>
   <string name="policy_dont_allow_browser">Nu permiteţi browserele</string>
   <string name="policy_dont_allow_consumer_email">Nu permiteţi e-mailuri client</string>
