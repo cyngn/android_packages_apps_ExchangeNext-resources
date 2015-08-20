@@ -43,8 +43,8 @@
   <string name="policy_dont_allow_internet_sharing">Ne dovoli skupne rabe interneta</string>
   <string name="policy_require_smime">Zahtevaj sporočila v obliki zapisa SMIME</string>
   <string name="policy_bluetooth_restricted">Omeji uporabo Bluetootha</string>
-  <string name="policy_app_blacklist">Ne dovoli navedenih programov</string>
-  <string name="policy_app_whitelist">Dovoli samo navedene programe</string>
+  <string name="policy_app_blacklist">Ne dovoli določenih programov</string>
+  <string name="policy_app_whitelist">Dovoli samo določene programe</string>
   <string name="policy_text_truncation">Omeji besedilo v e-poštnem sporočilu</string>
   <string name="policy_html_truncation">Omeji velikost e-poštnih sporočil HTML</string>
   <string name="policy_require_sd_encryption">Zahtevaj šifriranje kartice SD</string>
