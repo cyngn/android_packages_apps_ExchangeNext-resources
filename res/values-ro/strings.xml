@@ -32,7 +32,7 @@
   <string name="exception_updated">Detaliile acestui eveniment au fost modificate pentru: <xliff:g id="DATE">%s</xliff:g></string>
   <string name="policy_dont_allow_storage_cards">Nu permiteți carduri de stocare</string>
   <string name="policy_dont_allow_unsigned_apps">Nu permiteți aplicații nesemnate</string>
-  <string name="policy_dont_allow_unsigned_installers">Nu permiteţi instal. aplic. nesemnate</string>
+  <string name="policy_dont_allow_unsigned_installers">Nu permiteți instal. aplic. nesemnate</string>
   <string name="policy_dont_allow_wifi">Nu permiteți Wi-Fi</string>
   <string name="policy_dont_allow_text_messaging">Nu permiteți mesagerie text</string>
   <string name="policy_dont_allow_pop_imap">Nu permiteți conturi POP3 sau IMAP</string>
