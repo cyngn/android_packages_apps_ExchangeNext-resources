@@ -40,7 +40,7 @@
   <string name="policy_dont_allow_html">‏ایمیل HTML مجاز نیست</string>
   <string name="policy_dont_allow_browser">مرورگرها مجاز نیستند</string>
   <string name="policy_dont_allow_consumer_email">ایمیل مصرف‌کننده مجاز نیست</string>
-  <string name="policy_dont_allow_internet_sharing">اشتراک‌گذاری اینترنتی مجاز نیست</string>
+  <string name="policy_dont_allow_internet_sharing">اشتراک‌گذاری اینترنت مجاز نیست</string>
   <string name="policy_require_smime">‏پیام‌های SMIME لازم است</string>
   <string name="policy_bluetooth_restricted">استفاده از بلوتوث محدود است</string>
   <string name="policy_app_blacklist">برنامه‌های خاص مجاز نیستند</string>
