@@ -17,6 +17,67 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+  <string name="meeting_accepted">
+        Qəbul edildi:
+        <xliff:g id="subject">%s</xliff:g>
+    </string>
+  <string name="meeting_declined">
+        Rədd edildi:
+        <xliff:g id="subject">%s</xliff:g>
+    </string>
+  <string name="meeting_tentative">
+        Qərarsız:
+        <xliff:g id="subject">%s</xliff:g>
+    </string>
+  <string name="meeting_canceled">
+        İmtina edildi:
+        <xliff:g id="subject">%s</xliff:g>
+    </string>
+  <string name="meeting_updated">
+        Yeniləndi:
+        <xliff:g id="subject">%s</xliff:g>
+    </string>
+  <string name="meeting_when">
+        Vaxt:
+        <xliff:g id="when">%s</xliff:g>
+    </string>
+  <string name="meeting_where">
+        Yer:
+        <xliff:g id="where">%s</xliff:g>
+    </string>
+  <string name="meeting_recurring">
+        Vaxt:
+        <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g>
+        (təkrarlanan)
+    </string>
+  <string name="meeting_allday">
+        Vaxt:
+        <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>
+        (bütün gün)
+    </string>
+  <string name="meeting_allday_recurring">
+        Vaxt:
+        <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>
+        (bütün gün, təkrarlanan)
+    </string>
+  <string name="notification_exchange_calendar_added">Exchange təqvimi əlavə edildi</string>
+  <string name="exception_cancel">
+        Bu olaydan bu tarix üçün imtina
+        edildi:
+        <xliff:g id="date">%s</xliff:g>
+    </string>
+  <string name="policy_dont_allow_storage_cards">Yaddaş kartlarına icazə vermə</string>
+  <string name="policy_dont_allow_unsigned_apps">İmzasız tətbiqetmələrə icazə vermə</string>
+  <string name="policy_dont_allow_unsigned_installers">İmzasız tətbiqetmə quraşdırıcılarına
+        icazə vermə</string>
+  <string name="policy_dont_allow_wifi">Wi-Fi\'a icazə vermə</string>
+  <string name="policy_dont_allow_text_messaging">Mətn mesajına icazə vermə</string>
+  <string name="policy_dont_allow_pop_imap">POP3 və ya IMAP hesablarına icazə vermə</string>
+  <string name="policy_dont_allow_html">HTML e-poçta icazə vermə</string>
+  <string name="policy_dont_allow_browser">Səyyahlara icazə vermə</string>
+  <string name="policy_dont_allow_internet_sharing">İnternet paylaşımına icazə vermə</string>
   <string name="policy_dont_allow_attachments">Qoşmalara icazə vermə</string>
   <string name="policy_max_attachment_size">Qoşma ölçüsünü məhdudlaşdır</string>
+  <string name="auth_error_notification_title">Kimlik təsdiqləmə xətası</string>
+  <string name="auth_error_notification_text"><xliff:g id="ACCOUNT">%s</xliff:g> ilə bağlı hesab tənzimləmələrinə düzəliş etmək üçün toxunun</string>
 </resources>
