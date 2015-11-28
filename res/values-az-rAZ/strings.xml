@@ -76,8 +76,11 @@
   <string name="policy_dont_allow_html">HTML e-poçta icazə vermə</string>
   <string name="policy_dont_allow_browser">Səyyahlara icazə vermə</string>
   <string name="policy_dont_allow_internet_sharing">İnternet paylaşımına icazə vermə</string>
+  <string name="policy_app_blacklist">Dəqiqləşdirilən tətbiqlərə icazə vermə</string>
+  <string name="policy_app_whitelist">Yalnız dəqiqləşdirilən tətbiqlərə icazə ver</string>
   <string name="policy_dont_allow_attachments">Qoşmalara icazə vermə</string>
   <string name="policy_max_attachment_size">Qoşma ölçüsünü məhdudlaşdır</string>
+  <string name="policy_require_encryption">Cihaz şifrələnməsi tələb olunur</string>
   <string name="auth_error_notification_title">Kimlik təsdiqləmə xətası</string>
   <string name="auth_error_notification_text"><xliff:g id="ACCOUNT">%s</xliff:g> ilə bağlı hesab tənzimləmələrinə düzəliş etmək üçün toxunun</string>
 </resources>
