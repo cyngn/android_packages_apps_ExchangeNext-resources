@@ -20,19 +20,22 @@
   <string name="meeting_accepted">Aceptada: <xliff:g id="SUBJECT">%s</xliff:g></string>
   <string name="meeting_declined">Rechazada: <xliff:g id="SUBJECT">%s</xliff:g></string>
   <string name="meeting_tentative">Provisional: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_canceled">Cancelada: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_updated">Actualizado: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_when">Cuándo: <xliff:g id="WHEN">%s</xliff:g></string>
-  <string name="meeting_where">Dónde: <xliff:g id="WHERE">%s</xliff:g></string>
-  <string name="meeting_recurring">Cuándo: <xliff:g id="EVENTDATE">%s</xliff:g> (periódico)</string>
-  <string name="meeting_allday">Cuando: <xliff:g id="EVENTDATE">%s</xliff:g> (todo el día)</string>
-  <string name="meeting_allday_recurring">Cuando: <xliff:g id="EVENTDATE">%s</xliff:g> (todo el día, periódico)</string>
+  <string name="meeting_canceled">
+Cancelada: <xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_updated">
+Actualizado: <xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_when">
+Cuándo: <xliff:g id="when">%s</xliff:g>    </string>
+  <string name="meeting_where">
+Dónde: <xliff:g id="where">%s</xliff:g>    </string>
+  <string name="meeting_recurring">
+Cuándo: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (periódico)    </string>
+  <string name="meeting_allday">
+Cuando: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (todo el día)    </string>
+  <string name="meeting_allday_recurring">
+Cuando: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (todo el día, periódico)    </string>
   <string name="notification_exchange_calendar_added">Se ha añadido un calendario de Exchange.</string>
-  <string name="exception_cancel">Este evento se ha cancelado el día: <xliff:g id="DATE">%s</xliff:g></string>
-  <string name="exception_updated">Los detalles de este evento se han cambiado al día: <xliff:g id="DATE">%s</xliff:g></string>
   <string name="policy_dont_allow_storage_cards">No permitir tarjetas de almacenamiento</string>
-  <string name="policy_dont_allow_unsigned_apps">No permitir aplicaciones sin firmar</string>
-  <string name="policy_dont_allow_unsigned_installers">No permitir instaladores sin firmar</string>
   <string name="policy_dont_allow_wifi">No permitir Wi-Fi</string>
   <string name="policy_dont_allow_text_messaging">No permitir mensajes de texto</string>
   <string name="policy_dont_allow_pop_imap">No permitir cuentas POP3 ni IMAP</string>
@@ -40,18 +43,16 @@
   <string name="policy_dont_allow_html">No permitir correos HTML</string>
   <string name="policy_dont_allow_browser">No permitir navegadores</string>
   <string name="policy_dont_allow_consumer_email">No permitir correos comerciales</string>
-  <string name="policy_dont_allow_internet_sharing">No permitir compartir conexión a Internet</string>
-  <string name="policy_require_smime">Solicitar mensajes SMIME</string>
   <string name="policy_bluetooth_restricted">Restringir uso de Bluetooth</string>
   <string name="policy_app_blacklist">No permitir aplicaciones especificadas</string>
-  <string name="policy_app_whitelist">Permitir solo aplicaciones especificadas</string>
-  <string name="policy_text_truncation">Restringir tamaño de letra del correo</string>
-  <string name="policy_html_truncation">Restringir el tamaño del correo HTML</string>
-  <string name="policy_require_sd_encryption">Solicitar encriptación de tarjeta SD</string>
+  <string name="policy_app_whitelist">Permitir solo las aplicaciones especificadas</string>
+  <string name="policy_text_truncation">Restringir el tamaño del correo en texto</string>
+  <string name="policy_html_truncation">Restringir el tamaño del correo en HTML</string>
+  <string name="policy_require_sd_encryption">Requiere que la tarjeta SD esté cifrada</string>
   <string name="policy_dont_allow_attachments">No permitir archivos adjuntos</string>
   <string name="policy_max_attachment_size">Restringir tamaño de archivos adjuntos</string>
   <string name="policy_require_manual_sync_roaming">Sincronización manual solo en itinerancia</string>
-  <string name="policy_require_encryption">Solicitar encriptación de dispositivo</string>
+  <string name="policy_require_encryption">Requiere que el dispositivo esté cifrado</string>
   <string name="auth_error_notification_title">Error de autenticación</string>
-  <string name="auth_error_notification_text">Toca para editar la configuración de la cuenta <xliff:g id="ACCOUNT">%s</xliff:g></string>
+  <string name="auth_error_notification_text">Toca para editar la configuración de la cuenta <xliff:g id="account">%s</xliff:g></string>
 </resources>

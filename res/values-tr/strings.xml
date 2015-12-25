@@ -17,7 +17,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
-  <string name="meeting_accepted">Kabul edildi: <xliff:g id="SUBJECT">%s</xliff:g></string>
+  <string name="meeting_accepted">
+Kabul edildi:   
+<xliff:g id="subject">%s</xliff:g>    </string>
   <string name="meeting_declined">Reddedildi: <xliff:g id="SUBJECT">%s</xliff:g></string>
   <string name="meeting_tentative">Kararsız: <xliff:g id="SUBJECT">%s</xliff:g></string>
   <string name="meeting_canceled">İptal Edildi: <xliff:g id="SUBJECT">%s</xliff:g></string>
