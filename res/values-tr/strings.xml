@@ -20,18 +20,43 @@
   <string name="meeting_accepted">
 Kabul edildi:   
 <xliff:g id="subject">%s</xliff:g>    </string>
-  <string name="meeting_declined">Reddedildi: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_tentative">Kararsız: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_canceled">İptal Edildi: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_updated">Güncellendi: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_when">Zaman: <xliff:g id="WHEN">%s</xliff:g></string>
-  <string name="meeting_where">Yer: <xliff:g id="WHERE">%s</xliff:g></string>
-  <string name="meeting_recurring">Zaman: <xliff:g id="EVENTDATE">%s</xliff:g> (yinelenen)</string>
-  <string name="meeting_allday">Tarih: <xliff:g id="EVENTDATE">%s</xliff:g> (tüm gün)</string>
-  <string name="meeting_allday_recurring">Tarih: <xliff:g id="EVENTDATE">%s</xliff:g> (tüm gün, düzenli)</string>
+  <string name="meeting_declined">
+Reddedildi: 
+<xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_tentative">
+        Kararsız: 
+        <xliff:g id="subject">%s</xliff:g>
+    </string>
+  <string name="meeting_canceled">
+İptal edildi: 
+<xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_updated">
+Güncellendi: <xliff:g id="subject">%s</xliff:g>
+    </string>
+  <string name="meeting_when">
+Zaman: 
+<xliff:g id="when">%s</xliff:g>    </string>
+  <string name="meeting_where">
+Yer: 
+<xliff:g id="where">%s</xliff:g>    </string>
+  <string name="meeting_recurring">
+Zaman: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (yinelenen)    </string>
+  <string name="meeting_allday">
+Tarih: 
+<xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> 
+(tüm gün)    </string>
+  <string name="meeting_allday_recurring">
+Tarih: 
+<xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> 
+(tüm gün, düzenli)    </string>
   <string name="notification_exchange_calendar_added">Exchange takvimi eklendi</string>
-  <string name="exception_cancel">Bu olay şu tarih için iptal edildi: <xliff:g id="DATE">%s</xliff:g></string>
-  <string name="exception_updated">Bu olayın ayrıntıları değiştirildi: <xliff:g id="DATE">%s</xliff:g></string>
+  <string name="exception_cancel">
+Bu olay şu tarih için iptal edildi: 
+<xliff:g id="date">%s</xliff:g>    </string>
+  <string name="exception_updated">
+        Bu olayın ayrıntıları değiştirildi: 
+        <xliff:g id="date">%s</xliff:g>
+    </string>
   <string name="policy_dont_allow_storage_cards">Depolama kartlarına izin verme</string>
   <string name="policy_dont_allow_unsigned_apps">İmzasız uygulamalara izin verme</string>
   <string name="policy_dont_allow_unsigned_installers">İmzasız uygulama yükleyicilere izin verme</string>
@@ -53,7 +78,7 @@ Kabul edildi:
   <string name="policy_dont_allow_attachments">Eklere izin verme</string>
   <string name="policy_max_attachment_size">Ek boyutunu kısıtla</string>
   <string name="policy_require_manual_sync_roaming">Dolaşımda sadece elle senk. izin ver</string>
-  <string name="policy_require_encryption">Cihaz şifrelemesi gerektir</string>
+  <string name="policy_require_encryption">Cihaz şifrelemesini gerekli kıl</string>
   <string name="auth_error_notification_title">Kimlik doğrulama hatası</string>
-  <string name="auth_error_notification_text"><xliff:g id="ACCOUNT">%s</xliff:g> ile ilgili hesap ayarlarını düzenlemek için dokunun</string>
+  <string name="auth_error_notification_text"><xliff:g id="account">%s</xliff:g> ile ilgili hesap ayarlarını düzenlemek için dokunun</string>
 </resources>
