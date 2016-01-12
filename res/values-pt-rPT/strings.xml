@@ -42,7 +42,7 @@
   <string name="policy_dont_allow_consumer_email">Não permitir e-mails ao consumidor</string>
   <string name="policy_dont_allow_internet_sharing">Não permitir partilha de internet</string>
   <string name="policy_require_smime">Solicitar mensagens SMIME</string>
-  <string name="policy_bluetooth_restricted">Limitar utilização de Bluetooth</string>
+  <string name="policy_bluetooth_restricted">Limitar utilização do bluetooth</string>
   <string name="policy_app_blacklist">Não permitir aplicações especificadas</string>
   <string name="policy_app_whitelist">Permitir apenas aplicações especificadas</string>
   <string name="policy_text_truncation">Limitar tamanho de e-mails de texto</string>

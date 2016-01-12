@@ -24,15 +24,13 @@ Kabul edildi:
 Reddedildi: 
 <xliff:g id="subject">%s</xliff:g>    </string>
   <string name="meeting_tentative">
-        Kararsız: 
-        <xliff:g id="subject">%s</xliff:g>
-    </string>
+Kararsız: 
+<xliff:g id="subject">%s</xliff:g>    </string>
   <string name="meeting_canceled">
 İptal edildi: 
 <xliff:g id="subject">%s</xliff:g>    </string>
   <string name="meeting_updated">
-Güncellendi: <xliff:g id="subject">%s</xliff:g>
-    </string>
+Güncellendi: <xliff:g id="subject">%s</xliff:g>    </string>
   <string name="meeting_when">
 Zaman: 
 <xliff:g id="when">%s</xliff:g>    </string>
@@ -54,9 +52,8 @@ Tarih:
 Bu olay şu tarih için iptal edildi: 
 <xliff:g id="date">%s</xliff:g>    </string>
   <string name="exception_updated">
-        Bu olayın ayrıntıları değiştirildi: 
-        <xliff:g id="date">%s</xliff:g>
-    </string>
+Bu olayın ayrıntıları değiştirildi: 
+<0>%s</0>    </string>
   <string name="policy_dont_allow_storage_cards">Depolama kartlarına izin verme</string>
   <string name="policy_dont_allow_unsigned_apps">İmzasız uygulamalara izin verme</string>
   <string name="policy_dont_allow_unsigned_installers">İmzasız uygulama yükleyicilere izin verme</string>

@@ -68,4 +68,6 @@
   <string name="policy_max_attachment_size">تقييد حجم المرفق</string>
   <string name="policy_require_manual_sync_roaming">السماح بالمزامنة اليدوية فقط أثناء التجوال</string>
   <string name="policy_require_encryption">يلزم تشفير الجهاز</string>
+  <string name="auth_error_notification_title">خطأ في المصادقة</string>
+  <string name="auth_error_notification_text">المس لتحرير إعدادات الحساب لـ<xliff:g id="account">%s</xliff:g></string>
 </resources>
