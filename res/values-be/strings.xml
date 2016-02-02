@@ -52,4 +52,6 @@
   <string name="policy_max_attachment_size">Абмежаваць памер далучэнняў</string>
   <string name="policy_require_manual_sync_roaming">Дазваляць ручную сiнхранiзацыю ў роўмiнгу</string>
   <string name="policy_require_encryption">Патрабаваць шыфраванне прылады</string>
+  <string name="auth_error_notification_title">Памылка аўтэнтыфікацыі</string>
+  <string name="auth_error_notification_text">Націсніце, каб змяніць налады ўліковага запісу для <xliff:g id="account">%s</xliff:g></string>
 </resources>
