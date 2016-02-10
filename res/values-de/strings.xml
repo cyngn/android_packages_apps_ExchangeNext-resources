@@ -18,18 +18,45 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
   <string name="meeting_accepted">Akzeptiert: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_declined">Abgelehnt: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_tentative">Mit Vorbehalt: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_canceled">Abgebrochen: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_updated">Aktualisiert: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_when">Wann: <xliff:g id="WHEN">%s</xliff:g></string>
-  <string name="meeting_where">Wo: <xliff:g id="WHERE">%s</xliff:g></string>
-  <string name="meeting_recurring">Wann: <xliff:g id="EVENTDATE">%s</xliff:g> (wiederkehrend)</string>
-  <string name="meeting_allday">Wann: <xliff:g id="EVENTDATE">%s</xliff:g> (ganztägig)</string>
-  <string name="meeting_allday_recurring">Wann: <xliff:g id="EVENTDATE">%s</xliff:g> (ganztägig, wiederkehrend)</string>
+  <string name="meeting_declined">
+Abgelehnt: 
+<xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_tentative">
+Mit Vorbehalt: 
+<xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_canceled">
+Abgesagt: 
+<xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_updated">
+Aktualisiert: 
+<xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_when">
+Wann: 
+<xliff:g id="when">%s</xliff:g>    </string>
+  <string name="meeting_where">
+Wo: 
+<xliff:g id="where">%s</xliff:g>    </string>
+  <string name="meeting_recurring">
+Wann:
+<xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g>
+(wiederkehrend)    </string>
+  <string name="meeting_allday">
+Wann:
+<xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> 
+(ganztägig)    </string>
+  <string name="meeting_allday_recurring">
+Wann: 
+<xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>
+(ganztägig, wiederkehrend)    </string>
   <string name="notification_exchange_calendar_added">Exchange-Kalender hinzugefügt</string>
-  <string name="exception_cancel">Dieser Termin wurde storniert für: <xliff:g id="DATE">%s</xliff:g></string>
-  <string name="exception_updated">Die Details dieses Termins wurden geändert für: <xliff:g id="DATE">%s</xliff:g></string>
+  <string name="exception_cancel">
+Dieser Termin wurde storniert 
+für: 
+<xliff:g id="date">%s</xliff:g>    </string>
+  <string name="exception_updated">
+Die Details dieses Termins wurden geändert 
+für: 
+<xliff:g id="date">%s</xliff:g>    </string>
   <string name="policy_dont_allow_storage_cards">Speicherkarten nicht zulassen</string>
   <string name="policy_dont_allow_unsigned_apps">Keine unsignierten Apps</string>
   <string name="policy_dont_allow_unsigned_installers">Keine unsignierten App-Installer</string>
