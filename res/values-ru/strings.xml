@@ -17,11 +17,21 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
-  <string name="meeting_accepted">Принято: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_declined">Отклонено: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_tentative">Может быть: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_canceled">Отменено: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_updated">Обновлено: <xliff:g id="SUBJECT">%s</xliff:g></string>
+  <string name="meeting_accepted">
+Принято:
+<xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_declined">
+Отклонено:
+<xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_tentative">
+Под вопросом:
+<xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_canceled">
+Отменено:
+<xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_updated">
+Обновлено:
+<xliff:g id="subject">%s</xliff:g>    </string>
   <string name="meeting_when">Время: <xliff:g id="WHEN">%s</xliff:g></string>
   <string name="meeting_where">Где: <xliff:g id="WHERE">%s</xliff:g></string>
   <string name="meeting_recurring">Время: <xliff:g id="EVENTDATE">%s</xliff:g> (повторяющееся)</string>

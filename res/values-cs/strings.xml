@@ -33,7 +33,7 @@
   <string name="policy_dont_allow_storage_cards">Nepovolit paměťové karty</string>
   <string name="policy_dont_allow_unsigned_apps">Nepovolit nepodepsané aplikace</string>
   <string name="policy_dont_allow_unsigned_installers">Nepovolit nepodepsané instalátory</string>
-  <string name="policy_dont_allow_wifi">Nepovolit připojení Wi-Fi</string>
+  <string name="policy_dont_allow_wifi">Nepovolit připojení Wi\u2011Fi</string>
   <string name="policy_dont_allow_text_messaging">Nepovolit textové zprávy</string>
   <string name="policy_dont_allow_pop_imap">Nepovolovat účty POP3 a IMAP</string>
   <string name="policy_dont_allow_irda">Nepovolit komunikaci IR</string>
