@@ -17,19 +17,46 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
-  <string name="meeting_accepted">Принято: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_declined">Отклонено: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_tentative">Может быть: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_canceled">Отменено: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_updated">Обновлено: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_when">Время: <xliff:g id="WHEN">%s</xliff:g></string>
-  <string name="meeting_where">Где: <xliff:g id="WHERE">%s</xliff:g></string>
-  <string name="meeting_recurring">Время: <xliff:g id="EVENTDATE">%s</xliff:g> (повторяющееся)</string>
-  <string name="meeting_allday">Дата: <xliff:g id="EVENTDATE">%s</xliff:g> (весь день)</string>
-  <string name="meeting_allday_recurring">Дата: <xliff:g id="EVENTDATE">%s</xliff:g> (весь день, повторяется)</string>
+  <string name="meeting_accepted">
+Принято:
+<xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_declined">
+Отклонено:
+<xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_tentative">
+Под вопросом:
+<xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_canceled">
+Отменено:
+<xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_updated">
+Обновлено:
+<xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_when">
+Время:
+<xliff:g id="when">%s</xliff:g>    </string>
+  <string name="meeting_where">
+Где:
+<xliff:g id="where">%s</xliff:g>    </string>
+  <string name="meeting_recurring">
+Время:
+<xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g>
+(повторяется)    </string>
+  <string name="meeting_allday">
+Дата:
+<xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>
+(весь день)    </string>
+  <string name="meeting_allday_recurring">
+Дата:
+<xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>
+(весь день, повторяется)    </string>
   <string name="notification_exchange_calendar_added">Календарь Exchange добавлен</string>
-  <string name="exception_cancel">Это мероприятие отменено: <xliff:g id="DATE">%s</xliff:g></string>
-  <string name="exception_updated">Сведения об этом мероприятии были изменены: <xliff:g id="DATE">%s</xliff:g></string>
+  <string name="exception_cancel">
+Это событие отменено:
+<xliff:g id="date">%s</xliff:g>    </string>
+  <string name="exception_updated">
+Сведения об этом событии изменены:
+<xliff:g id="date">%s</xliff:g>    </string>
   <string name="policy_dont_allow_storage_cards">Не использовать карты памяти</string>
   <string name="policy_dont_allow_unsigned_apps">Запрещать неподписанные приложения</string>
   <string name="policy_dont_allow_unsigned_installers">Запрещать неподписанные установщики</string>
