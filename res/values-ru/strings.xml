@@ -32,14 +32,31 @@
   <string name="meeting_updated">
 Обновлено:
 <xliff:g id="subject">%s</xliff:g>    </string>
-  <string name="meeting_when">Время: <xliff:g id="WHEN">%s</xliff:g></string>
-  <string name="meeting_where">Где: <xliff:g id="WHERE">%s</xliff:g></string>
-  <string name="meeting_recurring">Время: <xliff:g id="EVENTDATE">%s</xliff:g> (повторяющееся)</string>
-  <string name="meeting_allday">Дата: <xliff:g id="EVENTDATE">%s</xliff:g> (весь день)</string>
-  <string name="meeting_allday_recurring">Дата: <xliff:g id="EVENTDATE">%s</xliff:g> (весь день, повторяется)</string>
+  <string name="meeting_when">
+Время:
+<xliff:g id="when">%s</xliff:g>    </string>
+  <string name="meeting_where">
+Где:
+<xliff:g id="where">%s</xliff:g>    </string>
+  <string name="meeting_recurring">
+Время:
+<xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g>
+(повторяется)    </string>
+  <string name="meeting_allday">
+Дата:
+<xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>
+(весь день)    </string>
+  <string name="meeting_allday_recurring">
+Дата:
+<xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>
+(весь день, повторяется)    </string>
   <string name="notification_exchange_calendar_added">Календарь Exchange добавлен</string>
-  <string name="exception_cancel">Это мероприятие отменено: <xliff:g id="DATE">%s</xliff:g></string>
-  <string name="exception_updated">Сведения об этом мероприятии были изменены: <xliff:g id="DATE">%s</xliff:g></string>
+  <string name="exception_cancel">
+Это событие отменено:
+<xliff:g id="date">%s</xliff:g>    </string>
+  <string name="exception_updated">
+Сведения об этом событии изменены:
+<xliff:g id="date">%s</xliff:g>    </string>
   <string name="policy_dont_allow_storage_cards">Не использовать карты памяти</string>
   <string name="policy_dont_allow_unsigned_apps">Запрещать неподписанные приложения</string>
   <string name="policy_dont_allow_unsigned_installers">Запрещать неподписанные установщики</string>
@@ -58,10 +75,10 @@
   <string name="policy_text_truncation">Ограничивать размер текстовых писем</string>
   <string name="policy_html_truncation">Ограничивать размер писем в формате HTML</string>
   <string name="policy_require_sd_encryption">Всегда шифровать SD-карты</string>
-  <string name="policy_dont_allow_attachments">Не загружать прикрепленные файлы</string>
-  <string name="policy_max_attachment_size">Ограничивать размер прикрепленных файлов</string>
+  <string name="policy_dont_allow_attachments">Не загружать вложения</string>
+  <string name="policy_max_attachment_size">Ограничивать размер вложений</string>
   <string name="policy_require_manual_sync_roaming">В роуминге только ручная синхронизация</string>
   <string name="policy_require_encryption">Всегда шифровать устройство</string>
   <string name="auth_error_notification_title">Ошибка аутентификации</string>
-  <string name="auth_error_notification_text">Нажмите, чтобы изменить настройки для аккаунта <xliff:g id="ACCOUNT">%s</xliff:g></string>
+  <string name="auth_error_notification_text">Нажмите, чтобы изменить настройки для аккаунта <xliff:g id="account">%s</xliff:g></string>
 </resources>

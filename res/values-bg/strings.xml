@@ -47,7 +47,7 @@
   <string name="policy_app_whitelist">Разрешаване само на посочени приложения</string>
   <string name="policy_text_truncation">Ограничаване на размера на текст. имейли</string>
   <string name="policy_html_truncation">Ограничаване на размера на HTML имейлите</string>
-  <string name="policy_require_sd_encryption">Изискване за шифроване на SD картата</string>
+  <string name="policy_require_sd_encryption">Изискване за шифроване на карта памет</string>
   <string name="policy_dont_allow_attachments">Забраняване на прикачени файлове</string>
   <string name="policy_max_attachment_size">Огранич. на размера на прикач. файлове</string>
   <string name="policy_require_manual_sync_roaming">Само ръчно синхронизиране при роуминг</string>

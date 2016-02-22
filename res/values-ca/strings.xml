@@ -47,11 +47,11 @@
   <string name="policy_app_whitelist">Permet només les aplicacions especif.</string>
   <string name="policy_text_truncation">Restring. mida de correu electr. de text</string>
   <string name="policy_html_truncation">Restringeix mida del correu electr. HTML</string>
-  <string name="policy_require_sd_encryption">Requereix l\'encriptació de targetes SD</string>
+  <string name="policy_require_sd_encryption">Requereix que la targeta SD estigui xifrada</string>
   <string name="policy_dont_allow_attachments">No permetis fitxers adjunts</string>
   <string name="policy_max_attachment_size">Restringeix la mida del fitxer adjunt</string>
   <string name="policy_require_manual_sync_roaming">Permet només sincr. manual en itinerància</string>
-  <string name="policy_require_encryption">Requereix l\'encriptació del dispositiu</string>
+  <string name="policy_require_encryption">Requereix que el dispositiu estigui xifrat</string>
   <string name="auth_error_notification_title">Error d\'autenticació</string>
   <string name="auth_error_notification_text">Toca per editar la configuració del compte <xliff:g id="ACCOUNT">%s</xliff:g></string>
 </resources>

@@ -19,13 +19,29 @@
   <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
   <string name="meeting_accepted">Accepterat: <xliff:g id="SUBJECT">%s</xliff:g></string>
   <string name="meeting_declined">Avvisat: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_tentative">Preliminärt: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_canceled">Inställt: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_updated">Uppdaterat: <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_when">När: <xliff:g id="WHEN">%s</xliff:g></string>
-  <string name="meeting_where">Var: <xliff:g id="WHERE">%s</xliff:g></string>
-  <string name="meeting_recurring">När: <xliff:g id="EVENTDATE">%s</xliff:g> (återkommande)</string>
-  <string name="meeting_allday">När: <xliff:g id="EVENTDATE">%s</xliff:g> (hela dagen)</string>
+  <string name="meeting_tentative">
+Preliminärt: 
+<xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_canceled">
+Inställt: 
+<xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_updated">
+Uppdaterat:
+<xliff:g id="subject">%s</xliff:g>    </string>
+  <string name="meeting_when">
+När: 
+<xliff:g id="when">%s</xliff:g>    </string>
+  <string name="meeting_where">
+Var: 
+<xliff:g id="where">%s</xliff:g>    </string>
+  <string name="meeting_recurring">
+När: 
+<xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> 
+(återkommande)    </string>
+  <string name="meeting_allday">
+När: 
+<xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> 
+(hela dagen)    </string>
   <string name="meeting_allday_recurring">När: <xliff:g id="EVENTDATE">%s</xliff:g> (hela dagen, återkommande)</string>
   <string name="notification_exchange_calendar_added">Exchange-kalendern har lagts till</string>
   <string name="exception_cancel">Det här händelsen har ställts in för: <xliff:g id="DATE">%s</xliff:g></string>
@@ -33,7 +49,7 @@
   <string name="policy_dont_allow_storage_cards">Tillåt inte minneskort</string>
   <string name="policy_dont_allow_unsigned_apps">Tillåt inte osignerade appar</string>
   <string name="policy_dont_allow_unsigned_installers">Tillåt inte installationsprogram för osignerade appar</string>
-  <string name="policy_dont_allow_wifi">Tillåt inte Wi-Fi</string>
+  <string name="policy_dont_allow_wifi">Tillåt inte Wi\u2011Fi</string>
   <string name="policy_dont_allow_text_messaging">Tillåt inte SMS</string>
   <string name="policy_dont_allow_pop_imap">Tillåt inte POP3- eller IMAP-konton</string>
   <string name="policy_dont_allow_irda">Tillåt inte infraröd kommunikation</string>

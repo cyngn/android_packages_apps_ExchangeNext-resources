@@ -58,8 +58,8 @@ Die Details dieses Termins wurden geändert
 für: 
 <xliff:g id="date">%s</xliff:g>    </string>
   <string name="policy_dont_allow_storage_cards">Speicherkarten nicht zulassen</string>
-  <string name="policy_dont_allow_unsigned_apps">Keine unsignierten Apps</string>
-  <string name="policy_dont_allow_unsigned_installers">Keine unsignierten App-Installer</string>
+  <string name="policy_dont_allow_unsigned_apps">Keine unsignierten Apps zulassen</string>
+  <string name="policy_dont_allow_unsigned_installers">Keine unsignierten App-Installer zulassen</string>
   <string name="policy_dont_allow_wifi">WLAN nicht zulassen</string>
   <string name="policy_dont_allow_text_messaging">SMS/MMS nicht zulassen</string>
   <string name="policy_dont_allow_pop_imap">POP3- oder IMAP-Konten nicht zulassen</string>
@@ -80,5 +80,5 @@ für:
   <string name="policy_require_manual_sync_roaming">Bei Roaming nur manuelle Synchronisierung</string>
   <string name="policy_require_encryption">Geräteverschlüsselung erforderlich</string>
   <string name="auth_error_notification_title">Authentifizierungsfehler</string>
-  <string name="auth_error_notification_text">Zum Bearbeiten der Kontoeinstellungen für <xliff:g id="account">%s</xliff:g> tippen</string>
+  <string name="auth_error_notification_text">Zum Bearbeiten der Kontoeinstellungen für <xliff:g id="account">%s</xliff:g> berühren</string>
 </resources>

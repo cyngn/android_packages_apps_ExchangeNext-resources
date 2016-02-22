@@ -25,35 +25,56 @@
     </string>
   <string name="meeting_canceled">Réunion annulée : <xliff:g id="SUBJECT">%s</xliff:g></string>
   <string name="meeting_updated">Mise à jour : <xliff:g id="SUBJECT">%s</xliff:g></string>
-  <string name="meeting_when">Date : <xliff:g id="WHEN">%s</xliff:g></string>
+  <string name="meeting_when">Date : <xliff:g id="when">%s</xliff:g></string>
   <string name="meeting_where">Lieu : <xliff:g id="WHERE">%s</xliff:g></string>
-  <string name="meeting_recurring">Date : <xliff:g id="EVENTDATE">%s</xliff:g> (périodique)</string>
-  <string name="meeting_allday">Quand : <xliff:g id="EVENTDATE">%s</xliff:g> (toute la journée)</string>
-  <string name="meeting_allday_recurring">Quand : <xliff:g id="EVENTDATE">%s</xliff:g> (toute la journée, récurrent)</string>
+  <string name="meeting_recurring">
+        Date :
+        <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g>
+        (périodique)
+    </string>
+  <string name="meeting_allday">
+        Date :
+        <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>
+        (toute la journée)
+    </string>
+  <string name="meeting_allday_recurring">
+        Date :
+        <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>
+        (toute la journée, périodique)
+    </string>
   <string name="notification_exchange_calendar_added">Agenda Exchange ajouté</string>
-  <string name="exception_cancel">Cet événement a été annulé pour : <xliff:g id="DATE">%s</xliff:g></string>
-  <string name="exception_updated">Les détails de cet événement ont été modifiés pour : <xliff:g id="DATE">%s</xliff:g></string>
+  <string name="exception_cancel">
+        Cet événement a été annulé
+        pour :
+        <xliff:g id="date">%s</xliff:g>
+    </string>
+  <string name="exception_updated">
+        Les détails de cet événement ont été modifiés
+        pour :
+        <xliff:g id="date">%s</xliff:g>
+    </string>
   <string name="policy_dont_allow_storage_cards">Ne pas autoriser les cartes de stockage</string>
-  <string name="policy_dont_allow_unsigned_apps">Ne pas autoriser programmes d\'installation non signés</string>
-  <string name="policy_dont_allow_unsigned_installers">Ne pas autoriser programmes d\'installation non signés</string>
+  <string name="policy_dont_allow_unsigned_apps">Ne pas autoriser les applications non signées</string>
+  <string name="policy_dont_allow_unsigned_installers">Ne pas autoriser programmes d\'installation 
+        d\'applications non signés</string>
   <string name="policy_dont_allow_wifi">Ne pas autoriser les communications Wi-Fi</string>
   <string name="policy_dont_allow_text_messaging">Ne pas autoriser les SMS</string>
   <string name="policy_dont_allow_pop_imap">Ne pas autoriser les comptes POP3 ni IMAP</string>
-  <string name="policy_dont_allow_irda">Ne pas autoriser communication infrarouge</string>
+  <string name="policy_dont_allow_irda">Ne pas autoriser les communications infrarouges</string>
   <string name="policy_dont_allow_html">Ne pas autoriser e-mails au format HTML</string>
   <string name="policy_dont_allow_browser">Ne pas autoriser les navigateurs</string>
   <string name="policy_dont_allow_consumer_email">Ne pas autoriser e-mails publicitaires</string>
-  <string name="policy_dont_allow_internet_sharing">Ne pas autoriser partage connexion Internet</string>
+  <string name="policy_dont_allow_internet_sharing">Ne pas autoriser le partage connexion Internet</string>
   <string name="policy_require_smime">Exiger le format SMIME pour les messages</string>
   <string name="policy_bluetooth_restricted">Limiter l\'utilisation de Bluetooth</string>
   <string name="policy_app_blacklist">Interdire les applications spécifiées</string>
-  <string name="policy_app_whitelist">Autoriser applications spécifiées uniq.</string>
+  <string name="policy_app_whitelist">Autoriser les applications spécifiées uniquement</string>
   <string name="policy_text_truncation">Autoriser e-mails texte selon taille</string>
-  <string name="policy_html_truncation">Autoriser e-mails HTML selon taille</string>
+  <string name="policy_html_truncation">Limiter la taille des e-mails HTML</string>
   <string name="policy_require_sd_encryption">Exiger le chiffrement de la carte SD</string>
   <string name="policy_dont_allow_attachments">Ne pas autoriser les pièces jointes</string>
-  <string name="policy_max_attachment_size">Autoriser pièces jointes selon taille</string>
-  <string name="policy_require_manual_sync_roaming">Interdire synchro auto en itinérance</string>
+  <string name="policy_max_attachment_size">Limiter la taille des pièces jointes</string>
+  <string name="policy_require_manual_sync_roaming">Autoriser uniquement la synchro manuelle en itinérance</string>
   <string name="policy_require_encryption">Exiger le chiffrement de l\'appareil</string>
   <string name="auth_error_notification_title">Erreur d\'authentification</string>
   <string name="auth_error_notification_text">Appuyez ici pour modifier les paramètres du compte <xliff:g id="ACCOUNT">%s</xliff:g>.</string>
