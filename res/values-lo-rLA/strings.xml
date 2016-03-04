@@ -16,42 +16,110 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Name of Microsoft Exchange account type; used by AccountManager -->
   <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+  <!-- Message subject for meeting accepted response. This will be followed
+        by a colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->
   <string name="meeting_accepted">ຍອມຮັບແລ້ວ: <xliff:g id="SUBJECT">%s</xliff:g></string>
+  <!-- Message subject for meeting declined response. This is followed by
+        a colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->
   <string name="meeting_declined">ປະຕິເສດ: <xliff:g id="SUBJECT">%s</xliff:g></string>
+  <!-- Message subject for meeting tentative response. This is followed by
+        a colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->
   <string name="meeting_tentative">ບໍ່ແນ່ນອນ: <xliff:g id="SUBJECT">%s</xliff:g></string>
+  <!-- Message subject for a canceled meeting email. This is followed by a
+        colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->
   <string name="meeting_canceled">ຍົກເລີກແລ້ວ: <xliff:g id="SUBJECT">%s</xliff:g></string>
+  <!-- Message subject for an updated meeting email. This is followed by a
+        colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->
   <string name="meeting_updated">ອັບເດດ: <xliff:g id="SUBJECT">%s</xliff:g></string>
+  <!-- Indicate when a meeting takes place. This is presented in in bullet
+        form, as in, "When: xxx" followed by "Where: xxx" -->
   <string name="meeting_when">ເວລາ: <xliff:g id="WHEN">%s</xliff:g></string>
+  <!-- Indicate where a meeting takes place. This is presented in in bullet
+        form, as in, "When: xxx" followed by "Where: xxx" -->
   <string name="meeting_where">ຢູ່ທີ່: <xliff:g id="WHERE">%s</xliff:g></string>
+  <!-- Indicate that a meeting is recurring. This would normally be presented
+        after "When: xxx", e.g. "When: Tue, Mar 10, 2010 at 2:30pm (recurring)" -->
   <string name="meeting_recurring">ເມື່ອ: <xliff:g id="EVENTDATE">%s</xliff:g> (ເກີດຂຶ້ນຊ້ຳໆ)</string>
+  <!-- Indicate that a meeting lasts all day. This would normally be presented
+        after "When: xxx", e.g. "When: Tue, Mar 10, 2010 (all day)" -->
   <string name="meeting_allday">ເມື່ອ: <xliff:g id="EVENTDATE">%s</xliff:g> (ຫມົດມື້)</string>
+  <!-- Indicate that a meeting lasts all day and is recurring. This would normally be presented
+        after "When: xxx", e.g. "When: Tue, Mar 10, 2010 (all day, recurring)" -->
   <string name="meeting_allday_recurring">ເມື່ອ: <xliff:g id="EVENTDATE">%s</xliff:g> (ຫມົດມື້, ເກີດຂຶ້ນຊ້ຳໆ)</string>
+  <!-- Notification message in notifications window when calendar sync is
+        automatically enabled for pre-existing Exchange accounts on upgrade -->
   <string name="notification_exchange_calendar_added">ເພີ່ມປະຕິທິນ Exchange ແລ້ວ</string>
+  <!-- Used as the body text of a message reporting to an attendee that a
+        specific instance of a recurring meeting has been canceled -->
   <string name="exception_cancel">ກິດຈະກຳນີ້ໄດ້ຖືກຍົກເລີກສຳລັບ: <xliff:g id="DATE">%s</xliff:g></string>
+  <!-- Used as the body text of a message reporting to an attendee that a
+        specific instance of a recurring meeting has been changed -->
   <string name="exception_updated">ລາຍລະອຽດຂອງກິດຈະກຳນີ້ໄດ້ມີການປ່ຽນແປງສໍາລັບ: <xliff:g id="DATE">%s</xliff:g></string>
+  <!-- The following are a list of policies that the user's server might require, but that can't
+        be enforced by our device.  We will list them separated by commas, as required -->
+  <!-- A policy in which the device may not have a storage card [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_storage_cards">ບໍ່ອະນຸຍາດກາດເກັບຂໍ້ມູນ</string>
+  <!-- A policy in which the device may not have unsigned applications installed
+        [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_unsigned_apps">ບໍ່ອະນຸຍາດແອັບຯທີ່ບໍ່ມີລາຍເຊັນ</string>
+  <!-- A policy in which the device may not allow application installation via an unsigned
+        installer [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_unsigned_installers">ບໍ່ອະນຸຍາດໂຕຕິດຕັ້ງແອັບຯທີ່ບໍ່ມີລາຍເຊັນ</string>
+  <!-- A policy in which the device may not allow wifi communications [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_wifi">ບໍ່ອະນຸຍາດໃຫ້ໃຊ້ Wi-Fi</string>
+  <!-- A policy in which the device may not allow text messaging [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_text_messaging">ບໍ່ອະນຸຍາດໃຫ້ສົ່ງຂໍ້ຄວາມ</string>
+  <!-- A policy in which the device may not allow POP3 or IMAP email accounts [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_pop_imap">ບໍ່ອະນຸຍາດບັນຊີ POP3 ຫຼື IMAP</string>
+  <!-- A policy in which the device may allow infrared communications [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_irda">ບໍ່ອະນຸຍາດໃຫ້ໃຊ້ອິນຟາເຣດໃນການສື່ສານ</string>
+  <!-- A policy in which the device may allow HTML email to be received [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_html">ບໍ່ອະນຸຍາດອີເມວເປັນ HTML</string>
+  <!-- A policy in which the device may not allow the user of web browsers [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_browser">ບໍ່ອະນຸຍາດໂປຣແກຣມທ່ອງເວັບ</string>
+  <!-- A policy in which the device may not allow the receipt of consumer email
+        [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_consumer_email">ບໍ່ອະນຸຍາດໃຫ້ຮັບອີເມວຜູ່ບໍລິໂພກ</string>
+  <!-- A policy in which the device may not allow internet connection sharing
+        [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_internet_sharing">ບໍ່ອະນຸຍາດໃຫ້ແບ່ງປັນອິນເຕີເນັດ</string>
+  <!-- A policy in which messages must be in SMIME format [CHAR LIMIT=50] -->
   <string name="policy_require_smime">ຂໍ້ຄວາມຕ້ອງເປັນ SMIME</string>
+  <!-- A policy in which the device's bluetooth capabilities are restricted [CHAR LIMIT=50] -->
   <string name="policy_bluetooth_restricted">ຈຳກັດການນຳໃຊ້ Bluetooth</string>
+  <!-- A policy in which the device blocks specified applications [CHAR LIMIT=50]-->
   <string name="policy_app_blacklist">ບໍ່ອະນຸຍາດແອັບຯທີ່ລະບຸໄວ້</string>
+  <!-- A policy in which the device allows only specified applications [CHAR LIMIT=50] -->
   <string name="policy_app_whitelist">ອະນຸຍາດໃຫ້ສະເພາະແອັບຯທີ່ລະບຸໄວ້</string>
+  <!-- A policy in which the device limits the amount of text that can be displayed for a
+        given message [CHAR LIMIT=50] -->
   <string name="policy_text_truncation">ຈໍາກັດຂະໜາດຂໍ້ຄວາມຂອງອີເມວ</string>
+  <!-- A policy in which the device limits the amount of HTML text that can be displayed for a
+        given message [CHAR LIMIT=50] -->
   <string name="policy_html_truncation">ຈໍາກັດຂະໜາດອີເມວແບບ HTML</string>
+  <!-- A policy in which the device requires device or sd card encryption [CHAR LIMIT=50] -->
   <string name="policy_require_sd_encryption">ຈຳເປັນຕ້ອງມີການເຂົ້າລະຫັດ SD ກາດ</string>
+  <!-- The following are a list of policies that the user's server requires and that are
+         in force.  We will list them separated by commas, as required -->
+  <!-- A policy in which attachments aren't allowed to be downloaded [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_attachments">ບໍ່ອະນຸຍາດໃຫ້ແນບໄຟລ໌</string>
+  <!-- A policy in which the device restricts the size of attachments that can be downloaded
+        [CHAR LIMIT=50] -->
   <string name="policy_max_attachment_size">ຈໍາກັດຂະໜາດໄຟລ໌ແນບ</string>
+  <!-- A policy in which the device may only sync manually while roaming [CHAR LIMIT=50] -->
   <string name="policy_require_manual_sync_roaming">ອະນຸຍາດໃຫ້ຊິ້ງຂໍ້ມູນດ້ວຍຕົນເອງເທົ່ານັ້ນໃນເວລາໂຣມມິງ</string>
+  <!-- The following is a policy that may or not be supported on a particular device -->
+  <!-- A policy in which the device requires device or sd card encryption [CHAR LIMIT=50] -->
   <string name="policy_require_encryption">ຈຳເປັນຕ້ອງມີການເຂົ້າລະຫັດອຸປະກອນ</string>
+  <!-- Title for notification warning about an authentication error [CHAR LIMIT=40]  -->
   <string name="auth_error_notification_title">ການພິສູດຢືນຢັນຜິດພາດ</string>
+  <!-- text for notification warning about an authentication error [CHAR LIMIT=60]  -->
   <string name="auth_error_notification_text">ແຕະເພື່ອແກ້ໄຂການຕັ້ງຄ່າບັນຊີຂອງ <xliff:g id="ACCOUNT">%s</xliff:g></string>
 </resources>
