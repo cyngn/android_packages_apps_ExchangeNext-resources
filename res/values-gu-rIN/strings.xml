@@ -21,68 +21,105 @@
   <!-- Message subject for meeting accepted response. This will be followed
         by a colon and the title of the meeting (i.e. the title of the meeting becomes
         part of the subject of the message that's sent) -->
+  <string name="meeting_accepted">સ્વીકારેલ: <xliff:g id="subject">%s</xliff:g></string>
   <!-- Message subject for meeting declined response. This is followed by
         a colon and the title of the meeting (i.e. the title of the meeting becomes
         part of the subject of the message that's sent) -->
+  <string name="meeting_declined">ડીક્લાઈન્ડ: <xliff:g id="subject">%s</xliff:g></string>
   <!-- Message subject for meeting tentative response. This is followed by
         a colon and the title of the meeting (i.e. the title of the meeting becomes
         part of the subject of the message that's sent) -->
+  <string name="meeting_tentative">આશરે: <xliff:g id="subject">%s</xliff:g></string>
   <!-- Message subject for a canceled meeting email. This is followed by a
         colon and the title of the meeting (i.e. the title of the meeting becomes
         part of the subject of the message that's sent) -->
+  <string name="meeting_canceled">રદ્દ થયેલ: <xliff:g id="subject">%s</xliff:g></string>
   <!-- Message subject for an updated meeting email. This is followed by a
         colon and the title of the meeting (i.e. the title of the meeting becomes
         part of the subject of the message that's sent) -->
+  <string name="meeting_updated">અપડેટ થયેલ: <xliff:g id="subject">%s</xliff:g></string>
   <!-- Indicate when a meeting takes place. This is presented in in bullet
         form, as in, "When: xxx" followed by "Where: xxx" -->
+  <string name="meeting_when">ક્યારે: <xliff:g id="when">%s</xliff:g></string>
   <!-- Indicate where a meeting takes place. This is presented in in bullet
         form, as in, "When: xxx" followed by "Where: xxx" -->
+  <string name="meeting_where">ક્યાં: <xliff:g id="where">%s</xliff:g></string>
   <!-- Indicate that a meeting is recurring. This would normally be presented
         after "When: xxx", e.g. "When: Tue, Mar 10, 2010 at 2:30pm (recurring)" -->
+  <string name="meeting_recurring">ક્યારે: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g> (રીકરીંગ)</string>
   <!-- Indicate that a meeting lasts all day. This would normally be presented
         after "When: xxx", e.g. "When: Tue, Mar 10, 2010 (all day)" -->
+  <string name="meeting_allday">ક્યારે: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (તમામ દિવસો)</string>
   <!-- Indicate that a meeting lasts all day and is recurring. This would normally be presented
         after "When: xxx", e.g. "When: Tue, Mar 10, 2010 (all day, recurring)" -->
+  <string name="meeting_allday_recurring">ક્યારે: <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g> (તમામ દિવસો, રીકરીંગ)</string>
   <!-- Notification message in notifications window when calendar sync is
         automatically enabled for pre-existing Exchange accounts on upgrade -->
+  <string name="notification_exchange_calendar_added">બદલી કેલેન્ડર ઉમેરાયું</string>
   <!-- Used as the body text of a message reporting to an attendee that a
         specific instance of a recurring meeting has been canceled -->
+  <string name="exception_cancel">આ ઘટના ના માટે રદ કરવામાં આવી છે: <xliff:g id="date">%s</xliff:g></string>
   <!-- Used as the body text of a message reporting to an attendee that a
         specific instance of a recurring meeting has been changed -->
+  <string name="exception_updated">આ ઘટનાની વિગતો ના માટે બદલવામાં આવી છે: <xliff:g id="date">%s</xliff:g></string>
   <!-- The following are a list of policies that the user's server might require, but that can't
         be enforced by our device.  We will list them separated by commas, as required -->
   <!-- A policy in which the device may not have a storage card [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_storage_cards">સંગ્રહ કાર્ડ્સને અનુમતિ આપશો નહીં</string>
   <!-- A policy in which the device may not have unsigned applications installed
         [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_unsigned_apps">સાઇનઇન ન હોય તેવી એપ્સને અનુમતિ આપશો નહીં.</string>
   <!-- A policy in which the device may not allow application installation via an unsigned
         installer [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_unsigned_installers">સાઇનઇન ન હોય તેવા એપ સ્થાપકોને અનુમતિ આપશો નહીં.</string>
   <!-- A policy in which the device may not allow wifi communications [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_wifi">Wi-Fi ને અનુમતિ આપશો નહીં</string>
   <!-- A policy in which the device may not allow text messaging [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_text_messaging">લખાણ સંદેશને અનુમતિ આપશો નહીં</string>
   <!-- A policy in which the device may not allow POP3 or IMAP email accounts [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_pop_imap">POP3 અથવા IMAP એકાઉન્ટ્સને અનુમતિ આપશો નહીં</string>
   <!-- A policy in which the device may allow infrared communications [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_irda">પારદર્શક સંદેશાવ્યવહારને અનુમતિ આપશો નહીં</string>
   <!-- A policy in which the device may allow HTML email to be received [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_html">HTML ઇમેઇલને અનુમતિ આપશો નહીં</string>
   <!-- A policy in which the device may not allow the user of web browsers [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_browser">બ્રાઉઝર્સને અનુમતિ આપશો નહીં</string>
   <!-- A policy in which the device may not allow the receipt of consumer email
         [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_consumer_email">ગ્રાહક ઇમેઇલને અનુમતિ આપશો નહીં</string>
   <!-- A policy in which the device may not allow internet connection sharing
         [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_internet_sharing">ઇન્ટરનેટ શેરીંગ સિવાય અનુમતિ આપશો નહીં</string>
   <!-- A policy in which messages must be in SMIME format [CHAR LIMIT=50] -->
+  <string name="policy_require_smime">SMIME સંદેશાઓ જરૂરી</string>
   <!-- A policy in which the device's bluetooth capabilities are restricted [CHAR LIMIT=50] -->
+  <string name="policy_bluetooth_restricted">પૃષ્ઠભુમિ ડેટાને પ્રતિબંધિત કરીએ?</string>
   <!-- A policy in which the device blocks specified applications [CHAR LIMIT=50]-->
+  <string name="policy_app_blacklist">નક્કી કરેલ એપ્સ અમાન્ય કરો</string>
   <!-- A policy in which the device allows only specified applications [CHAR LIMIT=50] -->
+  <string name="policy_app_whitelist">માત્ર નક્કી કરેલ એપ્સને અનુમતિ આપો</string>
   <!-- A policy in which the device limits the amount of text that can be displayed for a
         given message [CHAR LIMIT=50] -->
+  <string name="policy_text_truncation">ઇમેઇલ કદને પ્રતિબંધિત કરો</string>
   <!-- A policy in which the device limits the amount of HTML text that can be displayed for a
         given message [CHAR LIMIT=50] -->
+  <string name="policy_html_truncation">બ્લ્યુટુથ HTML કદને મર્યાદિત કરો</string>
   <!-- A policy in which the device requires device or sd card encryption [CHAR LIMIT=50] -->
+  <string name="policy_require_sd_encryption">SD કાર્ડ એન્ક્રિપ્શન જરૂરી</string>
   <!-- The following are a list of policies that the user's server requires and that are
          in force.  We will list them separated by commas, as required -->
   <!-- A policy in which attachments aren't allowed to be downloaded [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_attachments">જોડાણોને અનુમતિ આપશો નહીં</string>
   <!-- A policy in which the device restricts the size of attachments that can be downloaded
         [CHAR LIMIT=50] -->
+  <string name="policy_max_attachment_size">એપ્લિકેશન પૃષ્ઠભુમિ ડેટાને પ્રતિબંધિત કરો</string>
   <!-- A policy in which the device may only sync manually while roaming [CHAR LIMIT=50] -->
+  <string name="policy_require_manual_sync_roaming">રોમિંગ સમયે માત્ર મેન્યુઅલ કોલને અનુમતિ આપો</string>
   <!-- The following is a policy that may or not be supported on a particular device -->
   <!-- A policy in which the device requires device or sd card encryption [CHAR LIMIT=50] -->
+  <string name="policy_require_encryption">સાધન એન્ક્રિપ્શનની જરૂર છે</string>
   <!-- Title for notification warning about an authentication error [CHAR LIMIT=40]  -->
+  <string name="auth_error_notification_title">પ્રમાણીકરણ ભૂલ.</string>
   <!-- text for notification warning about an authentication error [CHAR LIMIT=60]  -->
+  <string name="auth_error_notification_text"><xliff:g id="account">%s</xliff:g> માટે એકાઉન્ટ સુયોજન સંપાદિત કરવા માટે સ્પર્શ કરો</string>
 </resources>

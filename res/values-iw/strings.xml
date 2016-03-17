@@ -33,35 +33,57 @@
   <!-- Message subject for a canceled meeting email. This is followed by a
         colon and the title of the meeting (i.e. the title of the meeting becomes
         part of the subject of the message that's sent) -->
-  <string name="meeting_canceled">בוטל: <xliff:g id="SUBJECT">%s</xliff:g></string>
+  <string name="meeting_canceled">
+בוטל:
+<xliff:g id="subject">%s</xliff:g>    </string>
   <!-- Message subject for an updated meeting email. This is followed by a
         colon and the title of the meeting (i.e. the title of the meeting becomes
         part of the subject of the message that's sent) -->
-  <string name="meeting_updated">עודכן: <xliff:g id="SUBJECT">%s</xliff:g></string>
+  <string name="meeting_updated">
+עודכן:
+<xliff:g id="subject">%s</xliff:g>    </string>
   <!-- Indicate when a meeting takes place. This is presented in in bullet
         form, as in, "When: xxx" followed by "Where: xxx" -->
-  <string name="meeting_when">מתי: <xliff:g id="WHEN">%s</xliff:g></string>
+  <string name="meeting_when">
+מתי:
+<xliff:g id="when">%s</xliff:g>    </string>
   <!-- Indicate where a meeting takes place. This is presented in in bullet
         form, as in, "When: xxx" followed by "Where: xxx" -->
-  <string name="meeting_where">היכן: <xliff:g id="WHERE">%s</xliff:g></string>
+  <string name="meeting_where">
+היכן:
+<xliff:g id="where">%s</xliff:g>    </string>
   <!-- Indicate that a meeting is recurring. This would normally be presented
         after "When: xxx", e.g. "When: Tue, Mar 10, 2010 at 2:30pm (recurring)" -->
-  <string name="meeting_recurring">מתי: <xliff:g id="EVENTDATE">%s</xliff:g> (אירוע חוזר)</string>
+  <string name="meeting_recurring">
+מתי: 
+<xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g>
+ (אירוע חוזר)    </string>
   <!-- Indicate that a meeting lasts all day. This would normally be presented
         after "When: xxx", e.g. "When: Tue, Mar 10, 2010 (all day)" -->
-  <string name="meeting_allday">מתי: <xliff:g id="EVENTDATE">%s</xliff:g> (כל יום)</string>
+  <string name="meeting_allday">
+מתי:
+<xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>
+(כל היום)    </string>
   <!-- Indicate that a meeting lasts all day and is recurring. This would normally be presented
         after "When: xxx", e.g. "When: Tue, Mar 10, 2010 (all day, recurring)" -->
-  <string name="meeting_allday_recurring">מתי: <xliff:g id="EVENTDATE">%s</xliff:g> (כל היום, חוזר)</string>
+  <string name="meeting_allday_recurring">
+מתי:
+<xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>
+(כל היום, חוזר)    </string>
   <!-- Notification message in notifications window when calendar sync is
         automatically enabled for pre-existing Exchange accounts on upgrade -->
   <string name="notification_exchange_calendar_added">‏נוסף יומן של Exchange</string>
   <!-- Used as the body text of a message reporting to an attendee that a
         specific instance of a recurring meeting has been canceled -->
-  <string name="exception_cancel">אירוע זה בוטל לתאריך: <xliff:g id="DATE">%s</xliff:g></string>
+  <string name="exception_cancel">
+אירוע זה בוטל
+לתאריך:
+<xliff:g id="date">%s</xliff:g>    </string>
   <!-- Used as the body text of a message reporting to an attendee that a
         specific instance of a recurring meeting has been changed -->
-  <string name="exception_updated">הפרטים של אירוע זה השתנו בתאריך: <xliff:g id="DATE">%s</xliff:g></string>
+  <string name="exception_updated">
+פרטי אירוע זה השתנו לתאריך:
+<xliff:g id="date">%s</xliff:g>    </string>
   <!-- The following are a list of policies that the user's server might require, but that can't
         be enforced by our device.  We will list them separated by commas, as required -->
   <!-- A policy in which the device may not have a storage card [CHAR LIMIT=50] -->
@@ -93,7 +115,7 @@
   <!-- A policy in which messages must be in SMIME format [CHAR LIMIT=50] -->
   <string name="policy_require_smime">‏נדרשת העברת הודעות SMIME</string>
   <!-- A policy in which the device's bluetooth capabilities are restricted [CHAR LIMIT=50] -->
-  <string name="policy_bluetooth_restricted">‏הגבל את השימוש ב-Bluetooth</string>
+  <string name="policy_bluetooth_restricted">‏הגבל שימוש ב-Bluetooth</string>
   <!-- A policy in which the device blocks specified applications [CHAR LIMIT=50]-->
   <string name="policy_app_blacklist">אל תאפשר יישומים שצוינו</string>
   <!-- A policy in which the device allows only specified applications [CHAR LIMIT=50] -->
@@ -114,7 +136,7 @@
         [CHAR LIMIT=50] -->
   <string name="policy_max_attachment_size">הגבל את גודל הקובץ המצורף</string>
   <!-- A policy in which the device may only sync manually while roaming [CHAR LIMIT=50] -->
-  <string name="policy_require_manual_sync_roaming">אפשר רק סינכרון ידני בעת נדידה</string>
+  <string name="policy_require_manual_sync_roaming">אפשר רק סנכרון ידני בעת נדידה</string>
   <!-- The following is a policy that may or not be supported on a particular device -->
   <!-- A policy in which the device requires device or sd card encryption [CHAR LIMIT=50] -->
   <string name="policy_require_encryption">נדרשת הצפנת מכשיר</string>

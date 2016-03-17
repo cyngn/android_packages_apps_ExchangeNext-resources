@@ -19,4 +19,5 @@
   <!-- Name of Microsoft Exchange account type; used by AccountManager -->
   <string name="exchange_name">અદલાબદલી</string>
   <!-- Name of Microsoft Exchange account type -->
+  <string name="exchange_name_account_setup">અદલાબદલી</string>
 </resources>
