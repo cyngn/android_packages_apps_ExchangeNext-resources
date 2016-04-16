@@ -29,7 +29,8 @@
   <!-- Message subject for meeting tentative response. This is followed by
         a colon and the title of the meeting (i.e. the title of the meeting becomes
         part of the subject of the message that's sent) -->
-  <string name="meeting_tentative">Tentativa: <xliff:g id="SUBJECT">%s</xliff:g></string>
+  <string name="meeting_tentative">
+Pendente: <xliff:g id="Subject">%s</xliff:g>    </string>
   <!-- Message subject for a canceled meeting email. This is followed by a
         colon and the title of the meeting (i.e. the title of the meeting becomes
         part of the subject of the message that's sent) -->
