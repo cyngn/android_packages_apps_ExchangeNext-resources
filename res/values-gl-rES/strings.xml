@@ -16,19 +16,87 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Name of Microsoft Exchange account type; used by AccountManager -->
   <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+  <!-- Message subject for meeting accepted response. This will be followed
+        by a colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->
   <string name="meeting_accepted">
 Aceptada:
 <xliff:g id="subject">%s</xliff:g>    </string>
+  <!-- Message subject for meeting declined response. This is followed by
+        a colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->
   <string name="meeting_declined">
 Inaceptada:
         <xliff:g id="subject">%s</xliff:g>
     </string>
+  <!-- Message subject for meeting tentative response. This is followed by
+        a colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->
   <string name="meeting_tentative">
 Provisoria:
   <xliff:g id="subject">%s</xliff:g>    </string>
+  <!-- Message subject for a canceled meeting email. This is followed by a
+        colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->
+  <!-- Message subject for an updated meeting email. This is followed by a
+        colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->
   <string name="meeting_updated">
 Actualizada:
         <xliff:g id="subject">%s</xliff:g>
     </string>
+  <!-- Indicate when a meeting takes place. This is presented in in bullet
+        form, as in, "When: xxx" followed by "Where: xxx" -->
+  <!-- Indicate where a meeting takes place. This is presented in in bullet
+        form, as in, "When: xxx" followed by "Where: xxx" -->
+  <!-- Indicate that a meeting is recurring. This would normally be presented
+        after "When: xxx", e.g. "When: Tue, Mar 10, 2010 at 2:30pm (recurring)" -->
+  <!-- Indicate that a meeting lasts all day. This would normally be presented
+        after "When: xxx", e.g. "When: Tue, Mar 10, 2010 (all day)" -->
+  <!-- Indicate that a meeting lasts all day and is recurring. This would normally be presented
+        after "When: xxx", e.g. "When: Tue, Mar 10, 2010 (all day, recurring)" -->
+  <!-- Notification message in notifications window when calendar sync is
+        automatically enabled for pre-existing Exchange accounts on upgrade -->
+  <!-- Used as the body text of a message reporting to an attendee that a
+        specific instance of a recurring meeting has been canceled -->
+  <!-- Used as the body text of a message reporting to an attendee that a
+        specific instance of a recurring meeting has been changed -->
+  <!-- The following are a list of policies that the user's server might require, but that can't
+        be enforced by our device.  We will list them separated by commas, as required -->
+  <!-- A policy in which the device may not have a storage card [CHAR LIMIT=50] -->
+  <!-- A policy in which the device may not have unsigned applications installed
+        [CHAR LIMIT=50] -->
+  <!-- A policy in which the device may not allow application installation via an unsigned
+        installer [CHAR LIMIT=50] -->
+  <!-- A policy in which the device may not allow wifi communications [CHAR LIMIT=50] -->
+  <!-- A policy in which the device may not allow text messaging [CHAR LIMIT=50] -->
+  <!-- A policy in which the device may not allow POP3 or IMAP email accounts [CHAR LIMIT=50] -->
+  <!-- A policy in which the device may allow infrared communications [CHAR LIMIT=50] -->
+  <!-- A policy in which the device may allow HTML email to be received [CHAR LIMIT=50] -->
+  <!-- A policy in which the device may not allow the user of web browsers [CHAR LIMIT=50] -->
+  <!-- A policy in which the device may not allow the receipt of consumer email
+        [CHAR LIMIT=50] -->
+  <!-- A policy in which the device may not allow internet connection sharing
+        [CHAR LIMIT=50] -->
+  <!-- A policy in which messages must be in SMIME format [CHAR LIMIT=50] -->
+  <!-- A policy in which the device's bluetooth capabilities are restricted [CHAR LIMIT=50] -->
+  <!-- A policy in which the device blocks specified applications [CHAR LIMIT=50]-->
+  <!-- A policy in which the device allows only specified applications [CHAR LIMIT=50] -->
+  <!-- A policy in which the device limits the amount of text that can be displayed for a
+        given message [CHAR LIMIT=50] -->
+  <!-- A policy in which the device limits the amount of HTML text that can be displayed for a
+        given message [CHAR LIMIT=50] -->
+  <!-- A policy in which the device requires device or sd card encryption [CHAR LIMIT=50] -->
+  <!-- The following are a list of policies that the user's server requires and that are
+         in force.  We will list them separated by commas, as required -->
+  <!-- A policy in which attachments aren't allowed to be downloaded [CHAR LIMIT=50] -->
+  <!-- A policy in which the device restricts the size of attachments that can be downloaded
+        [CHAR LIMIT=50] -->
+  <!-- A policy in which the device may only sync manually while roaming [CHAR LIMIT=50] -->
+  <!-- The following is a policy that may or not be supported on a particular device -->
+  <!-- A policy in which the device requires device or sd card encryption [CHAR LIMIT=50] -->
+  <!-- Title for notification warning about an authentication error [CHAR LIMIT=40]  -->
+  <!-- text for notification warning about an authentication error [CHAR LIMIT=60]  -->
 </resources>

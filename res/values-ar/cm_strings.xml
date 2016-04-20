@@ -16,6 +16,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Name of Microsoft Exchange account type; used by AccountManager -->
   <string name="exchange_name">Exchange</string>
+  <!-- Name of Microsoft Exchange account type -->
   <string name="exchange_name_account_setup">تبادل</string>
 </resources>

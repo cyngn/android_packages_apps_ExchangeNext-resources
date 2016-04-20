@@ -16,84 +16,152 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="exchange_name_alternate">ಮೈಕ್ರೋಸಾಫ್ಟ್ ವಿನಿಮಯ ಆಕ್ಟಿವ್‍ಸಿಂಕ್</string>
+  <!-- Name of Microsoft Exchange account type; used by AccountManager -->
+  <string name="exchange_name_alternate">ಮೈಕ್ರೋಸಾಫ್ಟ್ ಎಕ್ಸ್‌ಚೇಂಜ್ ಆಕ್ಟಿವ್‍ಸಿಂಕ್</string>
+  <!-- Message subject for meeting accepted response. This will be followed
+        by a colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->
   <string name="meeting_accepted">
         ಅಂಗೀಕೃತ:
         <xliff:g id="subject">%s</xliff:g>
     </string>
+  <!-- Message subject for meeting declined response. This is followed by
+        a colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->
   <string name="meeting_declined">
         ತಿರಸ್ಕೃತ:
         <xliff:g id="subject">%s</xliff:g>
     </string>
+  <!-- Message subject for meeting tentative response. This is followed by
+        a colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->
   <string name="meeting_tentative">
         ತಾತ್ಕಾಲಿಕ:
         <xliff:g id="subject">%s</xliff:g>
     </string>
+  <!-- Message subject for a canceled meeting email. This is followed by a
+        colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->
   <string name="meeting_canceled">
         ರದ್ದುಗೊಳಿಸಲ್ಪಟ್ಟ
         <xliff:g id="subject">%s</xliff:g>
     </string>
+  <!-- Message subject for an updated meeting email. This is followed by a
+        colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->
   <string name="meeting_updated">
         ನವೀಕೃತ:
         <xliff:g id="subject">%s</xliff:g>
     </string>
+  <!-- Indicate when a meeting takes place. This is presented in in bullet
+        form, as in, "When: xxx" followed by "Where: xxx" -->
   <string name="meeting_when">
         ಯಾವಾಗ:
         <xliff:g id="when">%s</xliff:g>
     </string>
+  <!-- Indicate where a meeting takes place. This is presented in in bullet
+        form, as in, "When: xxx" followed by "Where: xxx" -->
   <string name="meeting_where">
         ಎಲ್ಲಿ:
          <xliff:g id="where">%s</xliff:g>
     </string>
+  <!-- Indicate that a meeting is recurring. This would normally be presented
+        after "When: xxx", e.g. "When: Tue, Mar 10, 2010 at 2:30pm (recurring)" -->
   <string name="meeting_recurring">
         ಯಾವಾಗ:
         <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g>
         (ಪುನರಾವರ್ತಿತ)
     </string>
+  <!-- Indicate that a meeting lasts all day. This would normally be presented
+        after "When: xxx", e.g. "When: Tue, Mar 10, 2010 (all day)" -->
   <string name="meeting_allday">
         ಯಾವಾಗ:
         <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>
         (ಪೂರ್ತಿ ದಿನ)
     </string>
+  <!-- Indicate that a meeting lasts all day and is recurring. This would normally be presented
+        after "When: xxx", e.g. "When: Tue, Mar 10, 2010 (all day, recurring)" -->
   <string name="meeting_allday_recurring">
         ಯಾವಾಗ:
         <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>
         (ಪೂರ್ತಿ ದಿನ, ಪುನರಾವರ್ತಿತ)
     </string>
+  <!-- Notification message in notifications window when calendar sync is
+        automatically enabled for pre-existing Exchange accounts on upgrade -->
   <string name="notification_exchange_calendar_added">ವಿನಿಮಯ ಕ್ಯಾಲೆಂಡರ್ ಸೇರಿಸಲಾಗಿದೆ</string>
+  <!-- Used as the body text of a message reporting to an attendee that a
+        specific instance of a recurring meeting has been canceled -->
   <string name="exception_cancel">
         ಈ ಘಟನೆಯನ್ನು ಇದಕ್ಕಾಗಿ
         ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ:
         <xliff:g id="date">%s</xliff:g>
     </string>
+  <!-- Used as the body text of a message reporting to an attendee that a
+        specific instance of a recurring meeting has been changed -->
   <string name="exception_updated">
         ಈ ಘಟನೆಯ ವಿವರಗಳನ್ನು ಇದಕ್ಕಾಗಿ
         ಬದಲಿಸಲಾಗಿದೆ:
         <xliff:g id="date">%s</xliff:g>
     </string>
+  <!-- The following are a list of policies that the user's server might require, but that can't
+        be enforced by our device.  We will list them separated by commas, as required -->
+  <!-- A policy in which the device may not have a storage card [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_storage_cards">ಸಂಗ್ರಹಣೆ ಕಾರ್ಡ್‍ಗಳನ್ನು ಅನುಮತಿಸಬೇಡ</string>
+  <!-- A policy in which the device may not have unsigned applications installed
+        [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_unsigned_apps">ರುಜುಮಾಡದ ಆಪ್‍ಗಳನ್ನು ಅನುಮತಿಸಬೇಡ</string>
+  <!-- A policy in which the device may not allow application installation via an unsigned
+        installer [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_unsigned_installers">ರುಜು ಮಾಡದ ಆಪ್
         ಇನ್‍ಸ್ಟಾಲರ್ಗಳನ್ನು ಅನುಮತಿಸಬೇಡ</string>
+  <!-- A policy in which the device may not allow wifi communications [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_wifi">ವೈ-ಫೈ ಅನುಮತಿಸಬೇಡ</string>
+  <!-- A policy in which the device may not allow text messaging [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_text_messaging">ಪಠ್ಯ ಮೆಸೆಜಿಂಗ್ ಅನುಮತಿಸಬೇಡ</string>
+  <!-- A policy in which the device may not allow POP3 or IMAP email accounts [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_pop_imap">POP3 ಮತ್ತು IMAP ಖಾತೆಗಳನ್ನು ಅನುಮತಿಸಬೇಡ</string>
+  <!-- A policy in which the device may allow infrared communications [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_irda">ಅತಿಗೆಂಪು ಸಂವಹನಗಳನ್ನು ಅನುಮತಿಸಬೇಡ</string>
+  <!-- A policy in which the device may allow HTML email to be received [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_html">HTML ಇಮೇಲ್ ಅನುಮತಿಸಬೇಡ</string>
+  <!-- A policy in which the device may not allow the user of web browsers [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_browser">ಬ್ರೌಸರ್‍ಗಳನ್ನು ಅನುಮತಿಸಬೇಡ</string>
+  <!-- A policy in which the device may not allow the receipt of consumer email
+        [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_consumer_email">ಗ್ರಾಹಕ ಇಮೇಲ್ ಅನುಮತಿಸಬೇಡ</string>
+  <!-- A policy in which the device may not allow internet connection sharing
+        [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_internet_sharing">ಅಂತರ್ಜಾಲ ಹಂಚಿಕೆಯನ್ನು ಅನುಮತಿಸಬೇಡ</string>
+  <!-- A policy in which messages must be in SMIME format [CHAR LIMIT=50] -->
   <string name="policy_require_smime">SMIME ಸಂದೇಶಗಳ ಅಗತ್ಯವಿದೆ</string>
+  <!-- A policy in which the device's bluetooth capabilities are restricted [CHAR LIMIT=50] -->
   <string name="policy_bluetooth_restricted">ಬ್ಲೂಟೂತ್ ಬಳಕೆ ನಿರ್ಬಂಧಿಸು</string>
+  <!-- A policy in which the device blocks specified applications [CHAR LIMIT=50]-->
   <string name="policy_app_blacklist">ನಿಗದಿತ ಆಪ್‍ಗಳನ್ನು ಪ್ರತಿಷೇದಿಸು</string>
+  <!-- A policy in which the device allows only specified applications [CHAR LIMIT=50] -->
   <string name="policy_app_whitelist">ಕೇವಲ ನಿಗದಿತ ಆಪ್‍ಗಳನ್ನು ಮಾತ್ರ ಅನುಮತಿಸು</string>
+  <!-- A policy in which the device limits the amount of text that can be displayed for a
+        given message [CHAR LIMIT=50] -->
   <string name="policy_text_truncation">ಪಠ್ಯ ಇಮೇಲ್ ಗಾತ್ರವನ್ನು ನಿರ್ಬಂಧಿಸು</string>
+  <!-- A policy in which the device limits the amount of HTML text that can be displayed for a
+        given message [CHAR LIMIT=50] -->
   <string name="policy_html_truncation">HTML ಇಮೇಲ್ ಗಾತ್ರವನ್ನು ನಿರ್ಬಂಧಿಸು</string>
+  <!-- A policy in which the device requires device or sd card encryption [CHAR LIMIT=50] -->
   <string name="policy_require_sd_encryption">SD ಕಾರ್ಡ್ ಎಕ್ರಿಪ್ಶನ್ ಅಗತ್ಯವಿದೆ</string>
+  <!-- The following are a list of policies that the user's server requires and that are
+         in force.  We will list them separated by commas, as required -->
+  <!-- A policy in which attachments aren't allowed to be downloaded [CHAR LIMIT=50] -->
   <string name="policy_dont_allow_attachments">ಲಗತ್ತುಗಳನ್ನು ಅನುಮತಿಸಬೇಡ</string>
+  <!-- A policy in which the device restricts the size of attachments that can be downloaded
+        [CHAR LIMIT=50] -->
   <string name="policy_max_attachment_size">ಲಗತ್ತಿನ ಗಾತ್ರವನ್ನು ನಿರ್ಬಂಧಿಸು</string>
+  <!-- A policy in which the device may only sync manually while roaming [CHAR LIMIT=50] -->
   <string name="policy_require_manual_sync_roaming">ರೋಮಿಂಗ್‍ನಲ್ಲಿ ಸ್ವತಃ ಸಿಂಕನ್ನು ಮಾತ್ರ ಅನುಮತಿಸು</string>
+  <!-- The following is a policy that may or not be supported on a particular device -->
+  <!-- A policy in which the device requires device or sd card encryption [CHAR LIMIT=50] -->
   <string name="policy_require_encryption">ಸಾಧನ ಎನ್ಕ್ರಿಪ್ಶನ್ ಅಗತ್ಯವಿದೆ</string>
+  <!-- Title for notification warning about an authentication error [CHAR LIMIT=40]  -->
   <string name="auth_error_notification_title">ದೃಢೀಕರಣ ದೋಷ</string>
+  <!-- text for notification warning about an authentication error [CHAR LIMIT=60]  -->
   <string name="auth_error_notification_text"><xliff:g id="account">%s</xliff:g>ಗಾಗಿ ಖಾತೆ ಸೆಟ್ಟಿಂಗ್ಸ್ ಸಂಪಾದಿಸಲು ಸ್ಪರ್ಶಿಸಿ</string>
 </resources>
