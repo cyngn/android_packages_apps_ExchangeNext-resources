@@ -114,7 +114,7 @@
         [CHAR LIMIT=50] -->
   <string name="policy_max_attachment_size">Grootte van bijlagen beperken</string>
   <!-- A policy in which the device may only sync manually while roaming [CHAR LIMIT=50] -->
-  <string name="policy_require_manual_sync_roaming">Alleen handm. synchr. toestn bij roaming</string>
+  <string name="policy_require_manual_sync_roaming">Alleen handm. synchr. toestaan bij roaming</string>
   <!-- The following is a policy that may or not be supported on a particular device -->
   <!-- A policy in which the device requires device or sd card encryption [CHAR LIMIT=50] -->
   <string name="policy_require_encryption">Apparaatencryptie vereisen</string>
