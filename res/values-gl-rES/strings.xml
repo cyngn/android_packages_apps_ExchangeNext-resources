@@ -40,6 +40,10 @@ Provisoria:
   <!-- Message subject for a canceled meeting email. This is followed by a
         colon and the title of the meeting (i.e. the title of the meeting becomes
         part of the subject of the message that's sent) -->
+  <string name="meeting_canceled">
+        Cancelada:
+        <xliff:g id="subject">%s</xliff:g>
+    </string>
   <!-- Message subject for an updated meeting email. This is followed by a
         colon and the title of the meeting (i.e. the title of the meeting becomes
         part of the subject of the message that's sent) -->
@@ -49,54 +53,113 @@ Actualizada:
     </string>
   <!-- Indicate when a meeting takes place. This is presented in in bullet
         form, as in, "When: xxx" followed by "Where: xxx" -->
+  <string name="meeting_when">
+        Cando:
+        <xliff:g id="when">%s</xliff:g>
+    </string>
   <!-- Indicate where a meeting takes place. This is presented in in bullet
         form, as in, "When: xxx" followed by "Where: xxx" -->
+  <string name="meeting_where">
+        Onde:
+        <xliff:g id="where">%s</xliff:g>
+    </string>
   <!-- Indicate that a meeting is recurring. This would normally be presented
         after "When: xxx", e.g. "When: Tue, Mar 10, 2010 at 2:30pm (recurring)" -->
+  <string name="meeting_recurring">
+        Cando:
+        <xliff:g id="eventdate" example="Tue, Mar 10, 2010 at 2:30 pm">%s</xliff:g>
+        (periódico)
+    </string>
   <!-- Indicate that a meeting lasts all day. This would normally be presented
         after "When: xxx", e.g. "When: Tue, Mar 10, 2010 (all day)" -->
+  <string name="meeting_allday">
+        Cando:
+        <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>
+        (todo o día)
+    </string>
   <!-- Indicate that a meeting lasts all day and is recurring. This would normally be presented
         after "When: xxx", e.g. "When: Tue, Mar 10, 2010 (all day, recurring)" -->
+  <string name="meeting_allday_recurring">
+        Cando:
+        <xliff:g id="eventdate" example="Tue, Mar 10, 2010 ">%s</xliff:g>
+        (todo o día, periódico)
+    </string>
   <!-- Notification message in notifications window when calendar sync is
         automatically enabled for pre-existing Exchange accounts on upgrade -->
+  <string name="notification_exchange_calendar_added">Calendario de Exchange engadido</string>
   <!-- Used as the body text of a message reporting to an attendee that a
         specific instance of a recurring meeting has been canceled -->
+  <string name="exception_cancel">
+        O evento foi cancelado
+        por:
+        <xliff:g id="date">%s</xliff:g>
+    </string>
   <!-- Used as the body text of a message reporting to an attendee that a
         specific instance of a recurring meeting has been changed -->
+  <string name="exception_updated">
+        Os detalles deste evento foron cambiados
+        por:
+        <xliff:g id="date">%s</xliff:g>
+    </string>
   <!-- The following are a list of policies that the user's server might require, but that can't
         be enforced by our device.  We will list them separated by commas, as required -->
   <!-- A policy in which the device may not have a storage card [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_storage_cards">Non permitir tarxetas de almacenamento</string>
   <!-- A policy in which the device may not have unsigned applications installed
         [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_unsigned_apps">Non permitir as aplicacións sen asinar</string>
   <!-- A policy in which the device may not allow application installation via an unsigned
         installer [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_unsigned_installers">Non permitir as aplicacións sen asinar
+        instaladores</string>
   <!-- A policy in which the device may not allow wifi communications [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_wifi">Non permitir Wi-Fi</string>
   <!-- A policy in which the device may not allow text messaging [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_text_messaging">Non permitir mensaxes de texto</string>
   <!-- A policy in which the device may not allow POP3 or IMAP email accounts [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_pop_imap">Non permitir contas POP3 ou IMAP</string>
   <!-- A policy in which the device may allow infrared communications [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_irda">Non permitir comunicacións por infravermellos</string>
   <!-- A policy in which the device may allow HTML email to be received [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_html">Non permitir correo en formato HTML</string>
   <!-- A policy in which the device may not allow the user of web browsers [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_browser">Non permitir navegadores</string>
   <!-- A policy in which the device may not allow the receipt of consumer email
         [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_consumer_email">Non permitir correos comerciais</string>
   <!-- A policy in which the device may not allow internet connection sharing
         [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_internet_sharing">Non permitir a compartición da Internet</string>
   <!-- A policy in which messages must be in SMIME format [CHAR LIMIT=50] -->
+  <string name="policy_require_smime">Requirir mensaxes SMIME</string>
   <!-- A policy in which the device's bluetooth capabilities are restricted [CHAR LIMIT=50] -->
+  <string name="policy_bluetooth_restricted">Restrinxir o uso do Bluetooth</string>
   <!-- A policy in which the device blocks specified applications [CHAR LIMIT=50]-->
+  <string name="policy_app_blacklist">Non permitir as aplicacións especificadas</string>
   <!-- A policy in which the device allows only specified applications [CHAR LIMIT=50] -->
+  <string name="policy_app_whitelist">Permitir só as aplicacións especificadas</string>
   <!-- A policy in which the device limits the amount of text that can be displayed for a
         given message [CHAR LIMIT=50] -->
+  <string name="policy_text_truncation">Restrinxir o tamaño dos correos en formato texto</string>
   <!-- A policy in which the device limits the amount of HTML text that can be displayed for a
         given message [CHAR LIMIT=50] -->
+  <string name="policy_html_truncation">Restrinxir o tamaño dos correos en formato HTML</string>
   <!-- A policy in which the device requires device or sd card encryption [CHAR LIMIT=50] -->
+  <string name="policy_require_sd_encryption">Requirir cifrado da tarxeta SD</string>
   <!-- The following are a list of policies that the user's server requires and that are
          in force.  We will list them separated by commas, as required -->
   <!-- A policy in which attachments aren't allowed to be downloaded [CHAR LIMIT=50] -->
+  <string name="policy_dont_allow_attachments">Non permitir anexos de correo</string>
   <!-- A policy in which the device restricts the size of attachments that can be downloaded
         [CHAR LIMIT=50] -->
+  <string name="policy_max_attachment_size">Restrinxir o tamaño dos anexos de correo</string>
   <!-- A policy in which the device may only sync manually while roaming [CHAR LIMIT=50] -->
+  <string name="policy_require_manual_sync_roaming">Permitir a sincronización manual no roaming</string>
   <!-- The following is a policy that may or not be supported on a particular device -->
   <!-- A policy in which the device requires device or sd card encryption [CHAR LIMIT=50] -->
+  <string name="policy_require_encryption">Requirir cifrado do dispositivo</string>
   <!-- Title for notification warning about an authentication error [CHAR LIMIT=40]  -->
+  <string name="auth_error_notification_title">Erro de autenticación</string>
   <!-- text for notification warning about an authentication error [CHAR LIMIT=60]  -->
+  <string name="auth_error_notification_text">Tocar para editar os axustes da conta <xliff:g id="account">%s</xliff:g></string>
 </resources>
