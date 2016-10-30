@@ -34,8 +34,16 @@
         part of the subject of the message that's sent) -->
   <!-- Indicate when a meeting takes place. This is presented in in bullet
         form, as in, "When: xxx" followed by "Where: xxx" -->
+  <string name="meeting_when">
+        Kiam:
+        <xliff:g id="when">%s</xliff:g>
+    </string>
   <!-- Indicate where a meeting takes place. This is presented in in bullet
         form, as in, "When: xxx" followed by "Where: xxx" -->
+  <string name="meeting_where">
+        Kie:
+        <xliff:g id="where">%s</xliff:g>
+    </string>
   <!-- Indicate that a meeting is recurring. This would normally be presented
         after "When: xxx", e.g. "When: Tue, Mar 10, 2010 at 2:30pm (recurring)" -->
   <!-- Indicate that a meeting lasts all day. This would normally be presented
